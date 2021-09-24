@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HJCategoryKit_Example' do
+  pod 'HJCategoryKit', :path => '../'
+
+  target 'HJCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
